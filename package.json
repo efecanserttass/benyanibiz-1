@@ -1,0 +1,19 @@
+{
+  "name": "benyanibiz",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "BENYANIBIZ",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.2",
+    "discord.js": "^11.4.2",
+    "fortnite": "^4.2.1",
+    "moment": "^2.24.0",
+    "request": "^2.88.0"
+  }
+}
