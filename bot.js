@@ -79,11 +79,6 @@ client.unload = command => {
 };
 
 client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'csgo') {
-	msg.reply('<iframe src="https://cs.center/server/185.198.73.75/27015" style="width:980px;height:560px;" frameborder="0"></iframe>');	
-  }
-});
-client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
         msg.reply('Aleyküm selam, hoş geldin :heart: ');
   }
@@ -104,6 +99,9 @@ client.on('message', msg => {
   }
   if (msg.content.toLowerCase() === 'sende') {
       msg.reply('Eyvallah :wink: ');
+  }
+  if (msg.content === prefix + 'csgo') {
+        msg.reply('<iframe src="https://cs.center/server/185.198.73.75/27015" style="width:980px;height:560px;" frameborder="0"></iframe>');
   }
 });
 
