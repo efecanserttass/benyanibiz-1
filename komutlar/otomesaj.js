@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const ayarlar = require('../ayarlar.json');
 
 exports.run = (client, message, args) => {
-if (message.author.id != 480446768945823744) { return; }
+if (message.author.id != 280411924426915841) { return; }
   let mesaj = args.slice(0).join(' ');
 if (mesaj.length < 1) return message.channel.send('**Birşey Yazmalısınız**');
   message.delete();
@@ -22,7 +22,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'dmduyuru (Kurucu Özel)',
+  name: 'dmduyuru',
   description: 'Özel',
-  usage: 'dmduyuru [duyurmak istediğiniz şey]'
+  usage: 'dmduyuru'
 };
