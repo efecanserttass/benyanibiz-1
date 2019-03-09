@@ -15,7 +15,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'temizle (Yetkili Komudu) ',
+  name: 'temizle',
   description: 'Belirlenen miktarda mesajı siler.',
   usage: 'temizle'
 };
