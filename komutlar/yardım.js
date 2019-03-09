@@ -8,7 +8,7 @@ exports.run = (client, message, params) => {
   if (!params[0]) {
     const commandNames = Array.from(client.commands.keys());
     const longest = commandNames.reduce((long, str) => Math.max(long, str.length), 0);
-    message.author.sendCode('asciidoc', `= Komutlar =\n\n Yetkili Komutları\n\n b-dmduyuru\n b-temizle (sayı)\n\n Kullanıcı Komutları\n\n b-radyo\n b-sor\n b-çiz\n b-pgif`);
+    message.author.sendCode('asciidoc', ` Komutlar \n\n Yetkili Komutları\n\n b-dmduyuru\n b-temizle (sayı)\n\n Kullanıcı Komutları\n\n b-radyo\n b-sor\n b-çiz\n b-pgif`);
   if (message.channel.type !== 'dm') {
     const ozelmesajkontrol = new Discord.RichEmbed()
     .setColor(`RANDOM`)
