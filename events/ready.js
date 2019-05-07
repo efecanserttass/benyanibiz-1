@@ -19,9 +19,9 @@ console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıy�
 
     var Games = [
 
-        "》185.198.73.75:27015《",
+        "BEN YANİ BİZ ",
 		
-		"》İyi Oyunlar Dileriz《",
+		"BYGame",
 		
 		
         `》 ${prefix}yardım , ${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıyı Gözlüyor《`
