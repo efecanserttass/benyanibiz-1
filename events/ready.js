@@ -13,19 +13,12 @@ module.exports = client => {
   .send({ server_count: client.guilds.size })
   .then(() => console.log('Updated discordbots.org stats.'))
   .catch(err => console.error(`Whoops something went wrong: ${err.body}`));
-console.log('>>Oynuyor kısmı başarıyla güncellendi.');
 console.log('Bot hazır ve giriş yaptı.')
-console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıyı + Senin Küfürlerini İzliyor`);
+console.log(`Botumuz ${client.guilds.size} Sunucuda Bulunmakta ${client.users.size} izlemektedir.`);
 
     var Games = [
-
-        "BEN YANİ BİZ ",
 		
-		"BYGame",
-		
-		
-        `》 ${prefix}yardım , ${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıyı Gözlüyor《`
-
+        `》Ben Yani Biz | BYGame《`,
 
     ];
 
@@ -33,7 +26,7 @@ console.log(`${client.guilds.size} Sunucuyu + ${client.users.size} Kullanıcıy�
 
         var random = Math.floor(Math.random()*(Games.length-0+1)+0);
 
-        client.user.setGame(Games[random], "https://www.twitch.tv/iwallysyt");
+        client.user.setGame(Games[random], "www.twitch.tv/efecanserttass35");
         }, 2 * 2500);
 
 };
